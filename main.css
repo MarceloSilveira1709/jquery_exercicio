@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(207, 202, 199);
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+h1{
+    padding: 20px;
+    font-size: 40px;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 8px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+li{
+    padding: 3px;
+    justify-content: center
+}
+
+form input{
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+form button{
+    background-color: rgb(214, 213, 212);
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    font-weight: italic;
+    cursor:pointer;
+    padding: 5px;
+    }
