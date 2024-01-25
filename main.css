@@ -7,34 +7,22 @@
 body {
     background-color: rgb(207, 202, 199);
     padding-top: 100px;
+    text-align: center;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-}
 
 h1{
     padding: 20px;
     font-size: 40px;
 }
 
-.checked{
-    text-decoration: line-through;
-}
 
 .container {
     max-width: 800px;
     width: 100%;
     padding: 8px;
     margin: 0 auto;
-    align-items: center;
-}
-
-li{
-    padding: 3px;
-    justify-content: center
+    align-items:center;
 }
 
 form input{
@@ -51,3 +39,7 @@ form button{
     cursor:pointer;
     padding: 5px;
     }
+
+.riscarTarefa{
+        text-decoration: line-through;
+}
